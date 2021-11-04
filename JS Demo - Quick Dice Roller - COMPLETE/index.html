@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Dice Roller Demo</title>
+</head>
+<header>
+
+</header>
+<body>
+            <!-- QUICK ROLL -->            
+    <div class="sectionLayout" style="border: none;">
+        <div id="quickRollSection">
+            <h2>Quick Dice Roller</h2>
+            <div id="quickRollSectionButtons" style="border: none;">
+                <button class="buttonQuickRoll" onclick="rollQuickDie(2)">d2</button>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(3)">d3</button>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(4)">d4</button>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(6)">d6</button>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(8)">d8</button>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(10)">d10</button>
+                <br>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(12)">d12</button>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(20)">d20</button>
+                <button class="buttonQuickRoll" onclick="rollQuickDie(100)">d100</button>
+                <button class="buttonQuickRoll" onclick="rollAdv()">ADV</button>
+                <button class="buttonQuickRoll" onclick="rollDis()">DIS</button>
+                <!-- <button class="buttonQuickRoll" onclick="rollDie()">+</button> -->
+            </div>
+            <div id="quickRollResultsBox">
+                <span class="offDiceDisplay"></span>
+            </div>
+        </div>    
+    </div>
+    <script src="app.js"></script>
+    </body>
+</html>

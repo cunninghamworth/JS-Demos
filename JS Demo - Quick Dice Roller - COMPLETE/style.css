@@ -1,0 +1,94 @@
+body{
+    background-color: #E9DCC9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+    border: 1px solid #000;
+    width: auto;
+}
+
+h1 {
+    border: none;
+}
+
+h2 {
+    border: none;
+    text-align: center;
+}
+
+h3 {
+    border: none;
+}
+
+p {
+    border: none;
+}
+
+.mainDiv {
+    display:flex;
+}
+
+.offDiceDisplay {
+    font-size: 30px;
+}
+
+.sectionLayout {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+#quickRollSection {
+    border: none;
+    flex-wrap: nowrap;
+}
+
+#quickRollSectionButtons {
+    flex: 1;
+}
+
+#quickRollResultsBox {
+    background-color : #D2CCBA;
+    margin: 2px;
+	border : 2px solid #000;
+    border-radius: 6px;
+    color: #000;
+	padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 65px;
+    min-height: 80px;
+    flex: 1;
+}
+
+button {
+	background-color : #D2CCBA;
+    margin: 2px;
+	border : 2px solid #000;
+    border-radius: 6px;
+    color: #000;
+	padding: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: auto;
+    min-width: 55px;
+    height: auto;
+    min-height: 55px;
+}
+
+button:active {
+    background-color : #FFF;
+    box-shadow: 2px 2px #666;
+    transform: translateZ(6px);
+}
+
+button:hover {
+    background-color : #FFF;
+}
+
